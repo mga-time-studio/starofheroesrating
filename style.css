@@ -5,6 +5,15 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+h1 {
+    font-family: 'Impact', sans-serif;
+}
+h2 {
+    font-family: 'Impact', sans-serif;
+}
+h3 {
+    font-family: 'Impact', sans-serif;
+}
 button {
     box-shadow: 3px 3px 6px black;
     margin: 27px auto 0;
@@ -25,3 +34,12 @@ button {
 img {
     border-radius: 5px;
 }
+.horizontal-container {
+    display: flex; /* Используем flexbox для расположения элементов в строку */
+    align-items: center; /* Выравнивание элементов по вертикали по центру */
+  }
+  
+  .horizontal-container p {
+    margin-right: 20px; /* Отступ между текстом и изображением */
+  }
+  
